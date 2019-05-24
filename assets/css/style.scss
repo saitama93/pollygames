@@ -1,0 +1,265 @@
+// REGLES GENERALES
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Fira Sans", "sans-serif";
+  text-align: center;
+  font-size: 80px;
+  color: rgb(15, 224, 223);
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraphe {
+  font-size: 21px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+div {
+  text-align: center;
+
+  p {
+    padding-top: 15px;
+    text-align: start;
+  }
+
+  h2 {
+    color: rgb(15, 224, 223);
+    font-size: 60px;
+  }
+}
+
+ul{
+
+  li{
+
+    list-style: none;
+  }
+}
+// NAVBAR
+
+.navbar {
+  a {
+    text-align: initial;
+  }
+  li{
+      a:hover{
+          color: rgb(15, 224, 223) !important;
+      }
+     
+  }
+  border-bottom: 2px rgb(15, 224, 223) solid;
+  padding-left: 11%;
+  padding-right: 11%;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+
+// HEADER
+
+header {
+  #header-content {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  // Div qui contient le h1 (ANIMATIONS) et le p
+
+  #titre_presentation {
+    text-align: center;
+    background-color: black;
+    padding: 200px 0 50px 0;
+    // height: 400px;
+    height: 80vh;
+    p {
+        text-align: center;
+      color: white;
+    }
+  }
+}
+
+// MAIN
+
+main {
+
+  // PRESENTATIONS
+
+  #presentation{
+
+    // height: 700px;
+    height: 100vh;
+
+    .presentation-content{
+
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      .presentation-text{
+
+        padding-top: 50px;
+      }
+    }
+  }
+
+  // SECTION ANIMATIONS 
+
+  #animations{
+    
+
+    
+    background-color: rgb(15, 224, 223);
+    color: white;
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+    // align-items: center;
+    height: 80vh;
+   
+
+    .row{
+
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+
+    h2{
+
+      color: white;
+    }
+
+    h3{
+
+      color: white;
+    }
+  }
+
+  // SECTION POLLY FLECHETTE
+
+  #flechette {
+    background-image: url("../image/img-flechette.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    // Div qui contient le paragraphe
+  
+    .flechette-content {
+      padding: 170px 0;
+    }
+  
+    .flechette-paragraphe {
+      background-color: rgba(15, 224, 223, 0.6);
+      .paragraphe {
+        
+        color: black;
+        text-align: start;
+      }
+    }
+  }
+
+  // SECTION POLLY BUBBLE
+
+  #polly_bubble {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+
+    // Div qui contient le paragraphe et l'image
+
+    .polybubble-content {
+      padding: 100px 0;
+    }
+  }
+
+  // SECTION POLLY BATTLE
+
+  #polly_battle {
+
+    padding: 100px 0;
+
+    // Div qui contient le paragraphe et l'image
+
+    .pollyBattle-content {
+      padding-top: 50px;
+      padding-bottom: 50px;    }
+    background-color: white;
+    background-position: fixed;
+
+    p {
+      font-size: 21px;
+      font-family: "Fira Sans", sans-serif;
+    }
+  }
+
+  // SECTION SNOOKBALL
+
+
+  #snookball {
+    background-image: url("../image/img-snookball.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    padding: 100px 0;
+    height: 100vh;
+    // Div qui contient le paragraphe
+    .snookball-content {
+      padding: 100px 0;
+    }
+
+    .paragraphe-parent {
+      background-color: rgba(0, 0, 0, 0.5);
+      p {
+        font-size: 21px;
+        font-family: "Fira Sans", sans-serif;
+        color: white;
+        text-align: start;
+      }
+    }
+  }
+
+  // SECTION TIR DE PRECISION
+
+  #tirPrecision {
+    background-image: url("../image/tirPrecision.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:fixed;
+    height: 100vh;
+    padding: 100px 0;
+
+    h3{
+
+      color: white;
+    }
+
+    // Div qui contient le paragraphe et l'image
+    .tirPrecision-content {
+      padding: 100px 0;
+    }
+
+    .paragraphe-parent {
+      background-color: rgba(0, 0, 0, 0.5);
+      p {
+        font-size: 21px;
+        font-family: "Fira Sans", sans-serif;
+        color: white;
+        text-align: start;
+      }
+    }
+  }
+}

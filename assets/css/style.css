@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Fira Sans", "sans-serif";
+  text-align: center;
+  font-size: 80px;
+  color: #0fe0df;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraphe {
+  font-size: 21px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+div {
+  text-align: center;
+}
+div p {
+  padding-top: 15px;
+  text-align: start;
+}
+div h2 {
+  color: #0fe0df;
+  font-size: 60px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navbar {
+  border-bottom: 2px #0fe0df solid;
+  padding-left: 11%;
+  padding-right: 11%;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+.navbar a {
+  text-align: initial;
+}
+.navbar li a:hover {
+  color: #0fe0df !important;
+}
+
+header #header-content {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+header #titre_presentation {
+  text-align: center;
+  background-color: black;
+  padding: 200px 0 50px 0;
+  height: 80vh;
+}
+header #titre_presentation p {
+  text-align: center;
+  color: white;
+}
+
+main #presentation {
+  height: 100vh;
+}
+main #presentation .presentation-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main #presentation .presentation-content .presentation-text {
+  padding-top: 50px;
+}
+main #animations {
+  background-color: #0fe0df;
+  color: white;
+  height: 80vh;
+}
+main #animations .row {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+main #animations h2 {
+  color: white;
+}
+main #animations h3 {
+  color: white;
+}
+main #flechette {
+  background-image: url("../image/img-flechette.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main #flechette .flechette-content {
+  padding: 170px 0;
+}
+main #flechette .flechette-paragraphe {
+  background-color: rgba(15, 224, 223, 0.6);
+}
+main #flechette .flechette-paragraphe .paragraphe {
+  color: black;
+  text-align: start;
+}
+main #polly_bubble {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+main #polly_bubble .polybubble-content {
+  padding: 100px 0;
+}
+main #polly_battle {
+  padding: 100px 0;
+  background-color: white;
+  background-position: fixed;
+}
+main #polly_battle .pollyBattle-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main #polly_battle p {
+  font-size: 21px;
+  font-family: "Fira Sans", sans-serif;
+}
+main #snookball {
+  background-image: url("../image/img-snookball.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  padding: 100px 0;
+  height: 100vh;
+}
+main #snookball .snookball-content {
+  padding: 100px 0;
+}
+main #snookball .paragraphe-parent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main #snookball .paragraphe-parent p {
+  font-size: 21px;
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  text-align: start;
+}
+main #tirPrecision {
+  background-image: url("../image/tirPrecision.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+  padding: 100px 0;
+}
+main #tirPrecision h3 {
+  color: white;
+}
+main #tirPrecision .tirPrecision-content {
+  padding: 100px 0;
+}
+main #tirPrecision .paragraphe-parent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main #tirPrecision .paragraphe-parent p {
+  font-size: 21px;
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  text-align: start;
+}
+
+/*# sourceMappingURL=style.css.map */
